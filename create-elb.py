@@ -18,4 +18,4 @@ lb = conn_elb.create_load_balancer('nginx-lb',
 lb.configure_health_check(hc)
 
 #DNS name for your new load balancer
-print "Map the CNAME of your website to: %s" % (lb.dns_name)
+print "Map the FQDN of your website to: %s" % (lb.dns_name)
