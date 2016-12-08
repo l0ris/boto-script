@@ -15,6 +15,6 @@ dest2 = “%s” % dest
 k.key = dest2
 
 # put local file name you want to backup to S3
-source = raw_input (“source file name which you want to backup ”)
+source = raw_input (“source file name to backup ”)
 source2 = “%s” % source
 k.set_contents_from_filename(source2)
